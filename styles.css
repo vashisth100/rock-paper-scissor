@@ -3,6 +3,8 @@
     padding: 0;
 }
 body{
+    background: url("/image\ copy\ 3.png");
+    background-size: cover;
     text-align: center;
 }
 h1{
@@ -45,7 +47,7 @@ img{
     align-items: center;
     gap: 3.5rem;
     font-size: 2rem;
-    margin-top: 50px;
+    margin-top: 25px;
     font-weight: bold;
 }
 #user-score , #comp-score{
@@ -62,16 +64,10 @@ img{
     border-radius: 1rem;
 }
 .msg-container{
-    margin-top: 5rem;
+    margin-top: 2rem;
 
 }
-/* Default styles for laptops and larger screens */
-body {
-    background-image: url('/image\ copy\ 3.png');
-    background-size: cover;
-}
 
-/* Styles for mobile screens (up to 768px wide) */
 @media (max-width: 768px) {
     body {
         background-size: contain;
@@ -79,7 +75,7 @@ body {
     }
 
     .choices {
-        font-size: 16px; /* Adjust fonts, spacing, and layout */
+        font-size: 16px;
         padding: 10px;
     }
 }
