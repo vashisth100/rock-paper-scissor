@@ -5,8 +5,9 @@
 body{
     text-align: center;
     background: url("/image\ copy\ 3.png");
-    background-size: cover;
-    backface-visibility:var(50%);
+    background-size:cover;
+    background-repeat: no-repeat;
+   
 
 }
 h1{
