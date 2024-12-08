@@ -4,11 +4,6 @@
 }
 body{
     text-align: center;
-    background: url("/image\ copy\ 3.png");
-    background-size:cover;
-    background-repeat: no-repeat;
-   
-
 }
 h1{
     height: 5rem;
@@ -69,4 +64,22 @@ img{
 .msg-container{
     margin-top: 5rem;
 
+}
+/* Default styles for laptops and larger screens */
+body {
+    background-image: url('/image\ copy\ 3.png');
+    background-size: cover;
+}
+
+/* Styles for mobile screens (up to 768px wide) */
+@media (max-width: 768px) {
+    body {
+        background-size: contain;
+        background-position: center;
+    }
+
+    .choices {
+        font-size: 16px; /* Adjust fonts, spacing, and layout */
+        padding: 10px;
+    }
 }
